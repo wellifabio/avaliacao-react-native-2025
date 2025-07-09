@@ -1,0 +1,1 @@
+# avaliacao-react-native-2025
