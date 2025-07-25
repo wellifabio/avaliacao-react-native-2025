@@ -3,13 +3,13 @@
 
 ## Objetivo
 
-O objetivo deste desafio é avaliar suas habilidades em desenvolvimento de aplicativos móveis com React Native, sem o uso de Expo. Você deverá criar um aplicativo simples que consome uma API pública, exibe os dados em uma lista, permite a navegação para uma tela de detalhes e possui uma funcionalidade de busca.
+O objetivo deste desafio é avaliar suas habilidades em desenvolvimento de aplicativos móveis com React Native, com Expo. Você deverá criar um aplicativo simples que consome uma API pública, exibe os dados em uma lista, permite a navegação para uma tela de detalhes e possui uma funcionalidade de busca.
 
 ## Requisitos
 
 - **Plataforma:** O aplicativo deve ser compatível com Android.
 - **Linguagem:** O código principal do aplicativo deve ser escrito em inglês e TypeScript.
-- **Framework:** React Native (sem Expo).
+- **Framework:** React Native (com Expo).
 - **API:** Utilize a API pública [JSONPlaceholder](https://jsonplaceholder.typicode.com/) para obter os dados.
 
 ## Funcionalidades
@@ -47,15 +47,15 @@ O objetivo deste desafio é avaliar suas habilidades em desenvolvimento de aplic
 - Organize o código-fonte em uma estrutura clara e coesa. Sugerimos a seguinte estrutura:
 
 ```
-/src
-  /components
-  /navigation
+/app
+  /_laiout.tsx
+  /index.tsx
   /screens
-    /LoginScreen.tsx
-    /ListScreen.tsx
-    /DetailsScreen.tsx
+    /_layout.tsx
+    /list.tsx
+    /details.tsx
   /services
-    /api.ts
+    /authentication.tsx
 ```
 
 ## Avaliação
