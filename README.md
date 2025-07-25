@@ -55,6 +55,7 @@ O objetivo deste desafio é avaliar suas habilidades em desenvolvimento de aplic
     /list.tsx
     /details.tsx
     /components
+      /itemlist.tsx
   /services
     /authentication.tsx
 ```
