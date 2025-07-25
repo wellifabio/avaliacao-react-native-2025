@@ -48,12 +48,13 @@ O objetivo deste desafio é avaliar suas habilidades em desenvolvimento de aplic
 
 ```
 /app
-  /_laiout.tsx
+  /_layout.tsx
   /index.tsx
   /screens
     /_layout.tsx
     /list.tsx
     /details.tsx
+    /components
   /services
     /authentication.tsx
 ```
